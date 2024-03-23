@@ -79,7 +79,7 @@ public class Student {
         for (int i = 0; i < examScores.size(); i++) {
             stringBuilder.append("    Exam ").append(i + 1).append(" -> ").append(examScores.get(i)).append("\n");
         }
-        
+
         return stringBuilder.toString();
     }
 
